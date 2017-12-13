@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "L1_ArtemBelyaev/UserStoryTVC.swift"
+            timestampString = "534868543.105697"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "UserStoryTVC"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1_ArtemBelyaev.UserStoryTVC.isLogin.getter : Swift.Bool"
+                  moduleName = "L1_ArtemBelyaev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemb/Desktop/Developers/L1_ArtemBelyaev/L1_ArtemBelyaev/UserStoryTVC.swift"
+                  timestampString = "527442632.346846"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1_ArtemBelyaev.UserStoryTVC.isLogin.setter : Swift.Bool"
+                  moduleName = "L1_ArtemBelyaev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemb/Desktop/Developers/L1_ArtemBelyaev/L1_ArtemBelyaev/UserStoryTVC.swift"
+                  timestampString = "527442632.348594"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1_ArtemBelyaev.UserStoryTVC.init (style : __C.UITableViewStyle) -&gt; L1_ArtemBelyaev.UserStoryTVC"
+                  moduleName = "L1_ArtemBelyaev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemb/Desktop/Developers/L1_ArtemBelyaev/L1_ArtemBelyaev/UserStoryTVC.swift"
+                  timestampString = "527442632.350421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1_ArtemBelyaev.UserStoryTVC.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; L1_ArtemBelyaev.UserStoryTVC"
+                  moduleName = "L1_ArtemBelyaev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemb/Desktop/Developers/L1_ArtemBelyaev/L1_ArtemBelyaev/UserStoryTVC.swift"
+                  timestampString = "527442632.352245"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "L1_ArtemBelyaev.UserStoryTVC.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;L1_ArtemBelyaev.UserStoryTVC&gt;"
+                  moduleName = "L1_ArtemBelyaev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemb/Desktop/Developers/L1_ArtemBelyaev/L1_ArtemBelyaev/UserStoryTVC.swift"
+                  timestampString = "527442632.353906"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "L1_ArtemBelyaev/UserStoryTVC.swift"
+            timestampString = "534868543.105877"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

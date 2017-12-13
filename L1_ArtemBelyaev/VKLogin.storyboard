@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iBb-EN-ycY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--VKLogin-->
+        <scene sceneID="2q0-EL-YHm">
+            <objects>
+                <viewController title="VKLogin" id="iBb-EN-ycY" customClass="VKLoginVC" customModule="L1_ArtemBelyaev" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Yge-Nw-Rp9"/>
+                        <viewControllerLayoutGuide type="bottom" id="H6p-0z-WUt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hVg-U0-UUO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="E2v-BS-ht9">
+                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                                <color key="backgroundColor" red="0.1968196837" green="0.79760362689999997" blue="0.1770684045" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="E2v-BS-ht9" firstAttribute="trailing" secondItem="hVg-U0-UUO" secondAttribute="trailingMargin" id="6dd-cv-6Gi"/>
+                            <constraint firstAttribute="bottom" secondItem="E2v-BS-ht9" secondAttribute="bottom" constant="20" symbolic="YES" id="YcE-mJ-lbJ"/>
+                            <constraint firstItem="E2v-BS-ht9" firstAttribute="leading" secondItem="hVg-U0-UUO" secondAttribute="leadingMargin" id="bO1-tI-DQ4"/>
+                            <constraint firstItem="E2v-BS-ht9" firstAttribute="top" secondItem="Yge-Nw-Rp9" secondAttribute="bottom" id="rf8-fD-VrX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4uN-wc-Gik"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="E2v-BS-ht9" id="6ky-Gp-AfJ"/>
+                        <segue destination="rMh-XK-yzD" kind="unwind" identifier="unwindToUser" unwindAction="unwindLoginWithUnwindSegue:" id="etH-xf-hYZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z64-p5-8jC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="rMh-XK-yzD" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="298" y="-690"/>
+        </scene>
+    </scenes>
+</document>

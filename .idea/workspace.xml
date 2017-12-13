@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="90a639e6-f05f-4132-b354-d16f1d20f8a3" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/L1_ArtemBelyaev.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev.xcodeproj/project.xcworkspace/xcuserdata/artemb.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev.xcodeproj/xcuserdata/artemb.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev.xcworkspace/contents.xcworkspacedata" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev.xcworkspace/xcuserdata/artemb.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev.xcworkspace/xcuserdata/artemb.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/AllGroupsTVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/AsyncOperation.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Background/Utils.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Constants.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/GetDataOperation.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Group.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/MySwiftyVK.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/News.storyboard" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/News.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsFeed.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsFeedView.xib" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsParser.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsParserV2.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsTVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/NewsTableViewCell.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Objective-CBridgingHeader.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/Photo.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/PhotoCollectionViewCell.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/SetImageToRow.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/StandartVK.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/UserGroupsTVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/UserPhoto.storyboard" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/UserStory.storyboard" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/UserStoryTVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKFriend.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKGroups.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKLogin.storyboard" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKLogin.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKLoginVC.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKNewsFeed.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/VKPhoto.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/WallPhoto.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/L1_ArtemBelyaev/WebService.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Podfile.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/AFError.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Alamofire.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/MultipartFormData.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/NetworkReachabilityManager.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Notifications.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ParameterEncoding.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Request.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Response.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ResponseSerialization.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Result.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/ServerTrustPolicy.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionDelegate.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/SessionManager.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/TaskDelegate.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Timeline.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Alamofire/Source/Validation.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/Alamofire.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/Pods-L1_ArtemBelyaev.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/Realm.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/RealmSwift.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/SwiftyJSON.xcscheme" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/xcuserdata/artemb.xcuserdatad/xcschemes/xcschememanagement.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/NSError+RLMSync.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/binding_callback_thread_observer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/collection_notifications.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/apple/keychain_helper.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/collection_change_builder.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/collection_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/list_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/object_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/primitive_list_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/realm_coordinator.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/results_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/transact_log_handler.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/weak_realm_notifier.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/index_set.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/list.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/object.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/object_schema.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/object_store.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/placeholder.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/results.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/schema.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/shared_realm.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/apple/network_reachability_observer.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/apple/system_configuration.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/sync_file.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/impl/sync_metadata.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/partial_sync.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_config.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_manager.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_permission.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_session.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/sync/sync_user.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/thread_safe_reference.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/util/format.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/ObjectStore/src/util/uuid.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMAccessor.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMAnalytics.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMArray.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMClassInfo.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMCollection.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMConstants.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMJSONModels.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMListBase.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMManagedArray.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMMigration.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMNetworkClient.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObject.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObjectBase.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObjectSchema.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObjectStore.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMObservation.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMOptionalBase.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMPredicateUtil.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMProperty.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMQueryUtil.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealm+Sync.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealm.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealmConfiguration+Sync.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealmConfiguration.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMRealmUtil.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMResults.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSchema.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSwiftSupport.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncConfiguration.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncCredentials.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncManager.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncPermission.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncPermissionResults.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncSession.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncSessionRefreshHandle.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncUser.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMSyncUtil.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMThreadSafeReference.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMUpdateChecker.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/RLMUtil.mm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/Realm/Realm.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/build.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/core/librealmcore-ios.a" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/NSError+RLMSync.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMAccessor.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMAccessor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMAnalytics.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMArray.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMArray_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMArray_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMClassInfo.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMCollection.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMCollection_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMCollection_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMConstants.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMJSONModels.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMListBase.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMMigration.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMMigration_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMNetworkClient.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObject.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectBase.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectBase_Dynamic.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectBase_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectSchema.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectSchema_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectSchema_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObjectStore.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObject_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObject_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMObservation.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMOptionalBase.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMPlatform.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMPredicateUtil.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMPrefix.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMProperty.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMProperty_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMProperty_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMQueryUtil.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm+Sync.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration+Sync.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmConfiguration_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealmUtil.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm_Dynamic.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMRealm_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMResults.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMResults_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMResults_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSchema.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSchema_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSchema_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSwiftBridgingHeader.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSwiftSupport.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncConfiguration.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncConfiguration_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncConfiguration_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncCredentials.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncManager.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncManager_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncPermission.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncPermissionResults.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncPermission_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSession.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSessionRefreshHandle.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSessionRefreshHandle.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncSession_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUser.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUser_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUtil.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUtil_Private.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMSyncUtil_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMThreadSafeReference.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMThreadSafeReference_Private.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMUpdateChecker.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/RLMUtil.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/Realm.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/binding_callback_thread_observer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/binding_context.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/collection_notifications.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/alloc.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/alloc_slab.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_basic.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_basic_tpl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_binary.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_blob.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_blobs_big.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_direct.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_integer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_string.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/array_string_long.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/binary_data.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/bptree.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_backlink.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_binary.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_fwd.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_link.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_linkbase.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_linklist.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_mixed.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_mixed_tpl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_string.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_string_enum.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_table.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_timestamp.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_tpl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_type.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/column_type_traits.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/data_type.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/descriptor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/descriptor_fwd.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/disable_sync_to_disk.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/exceptions.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/group.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/group_shared.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/group_shared_options.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/group_writer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/handover_defs.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/history.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/array_writer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/cont_transact_hist.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/destroy_guard.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/input_stream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/output_stream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/query_tokenizer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/sequential_getter.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/simulated_failure.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/impl/transact_log.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/index_string.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/lang_bind_helper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/link_view.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/link_view_fwd.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/metrics/metric_timer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/metrics/metrics.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/metrics/query_info.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/metrics/transaction_info.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/mixed.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/null.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/olddatetime.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/owned_data.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_conditions.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_engine.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_expression.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_operators.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/query_parser.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/realm_nmmintrin.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/replication.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/row.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/spec.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/string_data.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/changeset.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/changeset_cooker.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/changeset_encoder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/changeset_parser.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/client.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/crypto.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/crypto_server.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/feature_token.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/history.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instruction_applier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instruction_replication.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/instructions.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/metrics.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/object.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/object_id.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/protocol.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/server.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/server_configuration.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/transform.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/sync/version.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/table.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/table_ref.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/table_view.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/timestamp.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/unicode.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/aes_cryptor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/alg_expr_serializer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/assert.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/base64.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/basic_system_errors.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/bind_ptr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/buffer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/buffer_stream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/call_with_tuple.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/cf_ptr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/compression.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/config.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/encrypted_file_mapping.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/errno.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/features.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/file.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/file_mapper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/hex_dump.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/http.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/inspect.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/interprocess_condvar.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/interprocess_mutex.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/json_parser.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/logger.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/memory_stream.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/misc_errors.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/miscellaneous.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/network.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/network_ssl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/optional.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/overload.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/priority_queue.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/random.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/safe_int_ops.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/scope_exit.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/shared_ptr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/shunting_yard_parser.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/string_buffer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/terminate.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/thread.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/time.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/to_string.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/type_list.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/type_traits.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/uri.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/utf8.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/util/websocket.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/utilities.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/version.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/version_id.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/core/realm/views.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/descriptor_ordering.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/execution_context_id.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/feature_checks.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/apple/external_commit_helper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/apple/keychain_helper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/collection_change_builder.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/collection_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/external_commit_helper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/list_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/notification_wrapper.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/object_accessor_impl.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/object_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/primitive_list_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/realm_coordinator.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/results_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/transact_log_handler.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/impl/weak_realm_notifier.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/index_set.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/list.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/object.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/object_accessor.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/object_schema.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/object_store.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/property.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/results.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/schema.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/shared_realm.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/apple/network_reachability_observer.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/apple/system_configuration.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/network_reachability.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/sync_client.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/sync_file.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/impl/sync_metadata.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/partial_sync.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_config.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_manager.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_permission.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_session.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/sync/sync_user.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/thread_safe_reference.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/aligned_union.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/any.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/apple/event_loop_signal.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/atomic_shared_ptr.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/compiler.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/event_loop_signal.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/format.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/tagged_bool.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/time.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Realm/include/util/uuid.hpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Aliases.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Error.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/LinkingObjects.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/List.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Migration.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Object.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/ObjectSchema.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/ObjectiveCSupport.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Optional.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Property.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Realm.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/RealmCollection.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/RealmConfiguration.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Results.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Schema.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/SortDescriptor.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/SwiftVersion.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Sync.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/ThreadSafeReference.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/RealmSwift/Util.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/RealmSwift/build.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftyJSON/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftyJSON/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/SwiftyJSON/Source/SwiftyJSON.swift" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-dummy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Alamofire.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Alamofire/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-acknowledgements.markdown" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-acknowledgements.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-dummy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-frameworks.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-resources.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev-umbrella.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev.debug.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-L1_ArtemBelyaev/Pods-L1_ArtemBelyaev.release.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Realm/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Realm/Realm-dummy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Realm/Realm-prefix.pch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Realm/Realm.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Realm/Realm.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-dummy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-prefix.pch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift.xcconfig" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/Info.plist" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-dummy.m" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON-umbrella.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.modulemap" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/SwiftyJSON/SwiftyJSON.xcconfig" />
+      <change beforePath="$PROJECT_DIR$/L1_ArtemBelyaev/AppDelegate.swift" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_5BAF9234-7F2A-4F80-9070-A08E296AC150" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FriendPhotoCVC.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+              <folding>
+                <marker date="1513025606856" expanded="true" signature="838:857" ph="{...}" />
+                <marker date="1513025606856" expanded="true" signature="2932:2938" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VKNewsFeed.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKNewsFeed.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetDataOperation.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/GetDataOperation.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetCacheImage.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/GetCacheImage.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-540">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.swift" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Constants.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VKMessage.swift" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKMessage.swift">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/VKGroups.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/ProrotypeNewsTVC.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/NewsParser.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/GetDataOperation.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/Constants.swift" />
+        <option value="$PROJECT_DIR$/L1_ArtemBelyaev/VKMessage.swift" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+              <item name="Controllers" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+              <item name="Model" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+              <item name="OperationTest" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+              <item name="Parse" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="L1_ArtemBelyaev" type="1d218c8b:XcodeProjectNode" />
+              <item name="L1_ArtemBelyaev" type="fcab9f18:XcodeViewNode" />
+              <item name="Service" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="L1_ArtemBelyaev" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="L1_ArtemBelyaev" TARGET_NAME="L1_ArtemBelyaev" CONFIG_NAME="Debug" SCHEME_NAME="L1_ArtemBelyaev" RUN_TARGET_PROJECT_NAME="L1_ArtemBelyaev" RUN_TARGET_NAME="L1_ArtemBelyaev" MAKE_ACTIVE="TRUE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="90a639e6-f05f-4132-b354-d16f1d20f8a3" name="Default" comment="" />
+      <created>1505926531833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1505926531833</updated>
+      <workItem from="1505926534613" duration="273000" />
+      <workItem from="1508953676536" duration="131000" />
+      <workItem from="1509034112872" duration="2736000" />
+      <workItem from="1512889901483" duration="811000" />
+      <workItem from="1512909155920" duration="792000" />
+      <workItem from="1513016077205" duration="1453000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="6196000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39975992" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <marker date="1513025606856" expanded="true" signature="838:857" ph="{...}" />
+            <marker date="1513025606856" expanded="true" signature="2932:2938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKNewsFeed.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/NewsParser.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="172" column="4" lean-forward="false" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+          <folding>
+            <element signature="e#140#157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <marker date="1513025606856" expanded="true" signature="838:857" ph="{...}" />
+            <marker date="1513025606856" expanded="true" signature="2932:2938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKNewsFeed.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/NewsParser.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="135" column="4" lean-forward="false" selection-start-line="135" selection-start-column="4" selection-end-line="135" selection-end-column="4" />
+          <folding>
+            <element signature="e#140#157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKGroups.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="72" column="8" lean-forward="true" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="68" />
+          <folding>
+            <marker date="1513025606856" expanded="true" signature="838:857" ph="{...}" />
+            <marker date="1513025606856" expanded="true" signature="2932:2938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/UserStoryTVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/ProrotypeNewsTVC.swift" />
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Friend.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/ProrotypeNewsTVC.swift" />
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKGroups.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/UserStoryTVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/FriendPhotoCVC.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
+          <folding>
+            <marker date="1513025606856" expanded="true" signature="838:857" ph="{...}" />
+            <marker date="1513025606856" expanded="true" signature="2932:2938" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKNewsFeed.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/NewsParser.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="172" column="4" lean-forward="false" selection-start-line="172" selection-start-column="4" selection-end-line="172" selection-end-column="4" />
+          <folding>
+            <element signature="e#140#157#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/GetDataOperation.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="9" lean-forward="false" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/GetCacheImage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/Constants.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/L1_ArtemBelyaev/VKMessage.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="57" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

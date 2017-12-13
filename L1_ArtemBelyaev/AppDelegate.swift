@@ -7,16 +7,55 @@
 //
 
 import UIKit
+import RealmSwift
+
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var utils = Utils()
+    
+    
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Realm.Configuration.defaultConfiguration = Realm.Configuration(deleteRealmIfMigrationNeeded: true)
         return true
+    }
+    
+    func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        print("Вфзов обновления данных в фоне \(Date())")
+        if utils.lastUpdate != nil, abs(utils.lastUpdate!.timeIntervalSinceNow) < 30 {
+            print ("Фоновое обновление не требуется, т.к. крайний раз данные обновлялись \(abs(utils.lastUpdate!.timeIntervalSinceNow)) секунд назад (меньше 30)")
+            completionHandler(.noData)
+            return
+        }
+        
+        utils.timer = DispatchSource.makeTimerSource(queue: DispatchQueue.main)
+        utils.timer?.scheduleRepeating(deadline: .now(), interval: .seconds(29), leeway: .seconds(1))
+        utils.timer?.setEventHandler{ [weak self] in
+            print("Говорим системе что не смогли зпгрузить данные")
+            completionHandler(.failed)
+            return
+        }
+        
+        utils.timer?.resume()
+        let newsService = VKNewsFeed()
+        let group = newsService.groups
+        
+        
+        utils.fetchCitiesWeatherGroup.notify(queue: DispatchQueue.main){
+            print("Все данные загружены в фоне")
+            self.utils.timer = nil
+            self.utils.lastUpdate = Date()
+            completionHandler(.newData)
+            return
+        }
+    
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -39,6 +78,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    /*func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        VKSdk.processOpen(url, fromApplication: options[UIApplicationOpenURLOptionsKey])
+    }*/
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+
+        return true
     }
 
 

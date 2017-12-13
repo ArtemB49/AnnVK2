@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oqe-RI-9AU">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Friend PhotoCVC-->
+        <scene sceneID="3RO-bQ-J0i">
+            <objects>
+                <collectionViewController id="oqe-RI-9AU" customClass="FriendPhotoCVC" customModule="L1_ArtemBelyaev" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="aJu-wi-z0u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="gfS-iH-taa">
+                            <size key="itemSize" width="175" height="175"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="item" id="TnO-JS-SS2" customClass="PhotoCollectionViewCell" customModule="L1_ArtemBelyaev" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="175" height="175"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jn8-ne-OiX">
+                                            <rect key="frame" x="8" y="6" width="159" height="161"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="Jn8-ne-OiX" secondAttribute="trailing" id="bRT-IR-kFP"/>
+                                    <constraint firstItem="Jn8-ne-OiX" firstAttribute="leading" secondItem="TnO-JS-SS2" secondAttribute="leadingMargin" id="dJH-rt-d6J"/>
+                                    <constraint firstItem="Jn8-ne-OiX" firstAttribute="top" secondItem="TnO-JS-SS2" secondAttribute="topMargin" constant="-2" id="jJu-qi-tFH"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="Jn8-ne-OiX" secondAttribute="bottom" id="oSM-Et-Jeq"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="photo" destination="Jn8-ne-OiX" id="gpd-Gk-g60"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="oqe-RI-9AU" id="ng9-f6-ZPZ"/>
+                            <outlet property="delegate" destination="oqe-RI-9AU" id="wjW-Ax-iCg"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dzQ-Uf-sK7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3944.8000000000002" y="-205.54722638680661"/>
+        </scene>
+    </scenes>
+</document>
